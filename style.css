@@ -1,0 +1,131 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:lightgray;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#enterRoundNumber{
+    background-color: whitesmoke;
+    padding: 10px;
+    border: solid 2px gray;
+    border-radius: 5px;
+    font-size: medium;
+    width: 250px;
+}
+
+#submitroundnum{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid rgb(124, 124, 124) 3px
+}
+
+#submitroundnum:hover{
+    cursor: pointer;
+    border-color: gray;
+    box-shadow: 2px 2px 0.5px;
+}
+
+#submitroundnum:active{
+    padding: 15px;
+}
+
+#showactiveround{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#currentround{
+    font-size: large;
+}
+
+#i-Canvas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#i-ShowScore{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    background-color: beige;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 5px;
+}
+#i-CpuScore,#i-PlayerScore{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: azure;
+    padding: 5px;
+    border: solid grey 2px;
+    border-radius: 5px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+#i-cpuphr,#i-playerphr{
+    background-color: azure;
+    font-weight: bold;
+}
+#player-s-value,#cpu-s-value{
+    background-color: azure;
+}
+
+#i-PlayGame{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 50px;
+    background-color: beige;
+    border: solid black 2px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#weapons{
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+#ch-weapon{
+    font-size: large;
+    font-weight: bold;
+    background-color: beige;
+}
+
+#i-Rock,#i-Paper,#i-Scissors{
+    background-color: azure;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid black 3px
+}
+
+#i-Rock:hover,#i-Paper:hover,#i-Scissors:hover{
+    cursor: pointer;
+    border-color: gray;
+    box-shadow: 10px 10px 0.5px;
+
+}
+
+#i-Rock:active,#i-Paper:active,#i-Scissors:active{
+    padding: 15px;
+}
+
+#R,#P,#S{
+    background-color: azure;
+}
