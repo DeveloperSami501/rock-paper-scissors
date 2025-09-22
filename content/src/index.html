@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/content/src/style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <div id="inputroundnum">
+        <input type="number" id="enterRoundNumber" placeholder="Choose how many rounds">
+        <button id="submitroundnum">OK</button>
+    </div>
+
+    <div id="showactiveround">
+        <h3>Round:</h3><p id="currentround"></p>
+    </div>
+
+    <div id="i-Canvas">
+        <div id="i-ShowScore">
+            <div id="i-CpuScore">
+                <p id="i-cpuphr">Computer Score:</p><p id="cpu-s-value"></p>
+            </div>
+
+            <div id="i-PlayerScore">
+                <p id="i-playerphr">Player Score:</p><p id="player-s-value"></p>
+            </div>
+        </div>
+
+        <div id="i-PlayGame">
+            <div id="weapons">
+                <button id="i-Rock"><img src="/content/img/stone.png" alt="rock" width="60" height="60" id="R"></button>
+                <button id="i-Paper"><img src="/content/img/scroll.png" alt="paper" width="60" height="60" id="P"></button>
+                <button id="i-Scissors"><img src="/content/img/scissors.png" alt="scissors" width="60" height="60" id="S"></button>
+            </div>
+            
+            <p id="ch-weapon">Choose your weapon</p>
+        </div>
+    </div>
+    <script src="/content/src/script.js"></script>
+</body>
+</html>
